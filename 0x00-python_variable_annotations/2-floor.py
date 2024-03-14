@@ -8,8 +8,8 @@
     Returns:
         int: The floor of the float.
 """
-import math
+
 
 def floor(n: float) -> int:
     """Return floor of float """
-    return math.floor(n)
+    return int(n)
