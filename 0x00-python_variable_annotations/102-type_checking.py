@@ -7,9 +7,9 @@ from typing import Tuple, List
 
 
 
-def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> Tuple[int, ...]:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """correct annontation"""
-    zoomed_in: Tuple[int, ...] = tuple(
+    zoomed_in: List = (
         item for item in lst
         for i in range(factor)
     )
