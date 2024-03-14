@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""use mypy to validate piece of code
+"""use mypy for validate piece of code
 and necessary changes.
 """
 
