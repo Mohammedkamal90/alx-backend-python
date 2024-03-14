@@ -5,7 +5,10 @@ and necessary changes.
 
 from typing import Tuple, List
 
+
+
 def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> Tuple[int, ...]:
+    """correct annontation"""
     zoomed_in: Tuple[int, ...] = tuple(
         item for item in lst
         for i in range(factor)
