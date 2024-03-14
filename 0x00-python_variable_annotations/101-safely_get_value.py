@@ -11,6 +11,8 @@ def safely_get_value(dct, key, default = None):
     else:
         return default
 """
+
+
 from typing import TypeVar, Mapping, Any, Union
 
 # Define a type variable representing the possible types of values
