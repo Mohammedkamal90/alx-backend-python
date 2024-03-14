@@ -16,8 +16,7 @@
 from typing import Union, Tuple
 
 
-
-def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+def to_kv(k: str, v: typing.Union[int, float]) -> typing.Tuple[str, float]:
     """return tuple of string"""
     return (k, float(v * v))
 
