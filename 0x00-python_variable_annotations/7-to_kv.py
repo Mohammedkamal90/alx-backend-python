@@ -12,8 +12,7 @@
         Tuple[str, float]: A tuple containing the string k and the square of the int/float v.
 """
 
-
-from typing import Union, Tuple
+import  typing
 
 
 def to_kv(k: str, v: typing.Union[int, float]) -> typing.Tuple[str, float]:
