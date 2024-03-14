@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-
-    """
+"""
     Adds two floats together.
 
     Args:
@@ -9,6 +8,7 @@
 
     Returns:
         float: The sum of a and b.
-    """
+"""
 def add(a: float, b: float) -> float:
-    return a + b
+
+    return (a + b)
