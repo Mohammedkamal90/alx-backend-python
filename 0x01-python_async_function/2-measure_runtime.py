@@ -3,9 +3,6 @@
 
 import asyncio
 import time
-from typing import List
-from random import uniform
-
 
 wait_n = __import__('1-concurrent_coroutines').wait_n
 
