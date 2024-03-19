@@ -11,9 +11,3 @@ async def async_comprehension() -> List[float]:
     async_comprehension function return 10 random unms
     """
     return [num async for num in async_generator()]
-
-# For testing
-async def main():
-    print(await async_comprehension())
-
-asyncio.run(main())
